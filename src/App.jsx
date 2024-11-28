@@ -6,6 +6,7 @@ import Solutions from './pages/Solutions';
 import Resources from './pages/Resources';
 import About from './pages/About';
 import Blog from './pages/Blog';
+import Vendore from './pages/Vendore';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/resources" element={<Resources />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/vendore" element={<Vendore />} />
+
         </Routes>
       </Layout>
     </Router>
