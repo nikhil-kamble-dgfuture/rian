@@ -9,6 +9,8 @@ function Header() {
     { path: '/resources', label: 'Resources' },
     { path: '/about', label: 'About us' },
     { path: '/blog', label: 'Blog' },
+    { path: '/vendore', label: 'Vendore' },
+
   ];
 
   return (
@@ -37,9 +39,9 @@ function Header() {
           </div>
 
           <div className="hidden lg:flex items-center space-x-8">
-            <Link to="/vendor" className="text-white hover:text-blue-400">
+            {/* <Link to="/vendor" className="text-white hover:text-blue-400">
               Vendor registration
-            </Link>
+            </Link> */}
             <Link to="/login" className="text-white hover:text-blue-400">
               Log in
             </Link>
