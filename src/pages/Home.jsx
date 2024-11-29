@@ -72,10 +72,11 @@
 // export default Home;
 // components/Home.jsx
 import React from 'react';
-import HeroSection from '../components/HeroSection';
-import Carousel from '../components/Carousel';
-import Marquee from '../components/Marquee';
-import PinScroll from "../components/PinScroll";
+import HeroSection from '../components/home/HeroSection';
+import Carousel from '../components/home/Carousel';
+import Marquee from '../components/home/Marquee';
+import PinScroll from "../components/home/PinScroll";
+import HoverImageSection from '../components/home/HoverImageSection';
 
 function Home() {
   return (
@@ -111,6 +112,9 @@ function Home() {
       </div> */}
 
       <PinScroll />
+
+        <HoverImageSection />
+      
     </>
   );
 }
