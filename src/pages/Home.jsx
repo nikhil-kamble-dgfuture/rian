@@ -77,6 +77,8 @@ import Carousel from '../components/home/Carousel';
 import Marquee from '../components/home/Marquee';
 import PinScroll from "../components/home/PinScroll";
 import HoverImageSection from '../components/home/HoverImageSection';
+import GettingStarted from '../components/home/GettingStarted';
+import PurpleSection from '../components/home/purplesection/PurpleSection';
 
 function Home() {
   return (
@@ -113,7 +115,10 @@ function Home() {
 
       <PinScroll />
 
+        <GettingStarted/>
+        <PurpleSection/>
         <HoverImageSection />
+
       
     </>
   );

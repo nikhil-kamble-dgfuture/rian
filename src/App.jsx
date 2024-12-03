@@ -7,6 +7,7 @@ import Resources from './pages/Resources';
 import About from './pages/About';
 import Blog from './pages/Blog';
 import Vendore from './pages/Vendore';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
           <Route path="/vendore" element={<Vendore />} />
 
         </Routes>
+        <Footer /> {/* Add Footer here to display it on every page */}
+
       </Layout>
     </Router>
   );
